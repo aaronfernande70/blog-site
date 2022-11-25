@@ -1,0 +1,10 @@
+.like {
+ display: flex;
+
+}
+
+.like-button {
+    border: none;
+    background-color: inherit;
+    width: 3rem;
+}

@@ -1,0 +1,41 @@
+.blog-card {
+    padding: 1rem;
+    width: 45rem;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.blog-header {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.posted-time {
+    font-size: .8rem;
+    color: rgb(100, 100, 100);
+}
+
+.blog-body {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.blog-title {
+    cursor: pointer;
+}
+
+.featured-image {
+    cursor: pointer;
+}
+
+.blog-footer {
+    display: flex;
+    gap: 1rem;
+}

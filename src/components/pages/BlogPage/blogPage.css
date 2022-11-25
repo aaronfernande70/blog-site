@@ -1,0 +1,50 @@
+.blogpage {
+    display: flex;
+    /* z-index: -1; */
+}
+
+.container {
+    display: flex;
+    margin-left: 5rem;
+    
+ 
+}
+
+.blog-details {
+    flex-basis: 72%;
+    border-left: 1px solid rgb(220, 220, 220);
+    border-right: 1px solid rgb(220, 220, 220);
+    background-color: rgb(260, 260, 260);
+    min-height: 100vh;
+    padding: 5rem 10rem;
+    position: relative;
+}
+
+.user {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+.user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.details-body {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.edit {
+    width: 1.5rem;
+    height: 1.5rem;
+    border: none;
+    background-color: inherit;
+    margin-left: .5rem;
+}
+
+.postDiv img {
+    width: 600px;
+}
+

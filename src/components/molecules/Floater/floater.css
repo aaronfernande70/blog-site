@@ -1,0 +1,43 @@
+.floater {
+    position: fixed;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(200, 200, 200, .7);
+    border-radius: 2rem;
+    bottom: 10px;
+    left: 25%;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+  
+}
+
+.comment-button {
+    /* border: none;
+    width: 1.3rem;
+    background: inherit; */
+}
+
+.open {
+    /* display: flex; */
+    z-index: 99;
+    /* right: 0; */
+    visibility: visible;
+    /* opacity: 1; */
+}
+
+.close {
+    /* display: none; */
+    /* left:100%; */
+    visibility: hidden;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: black;
+    width: 26rem;
+    height: 100vh;
+    
+}

@@ -1,0 +1,30 @@
+.info-container {
+    flex-basis: 28%;
+    padding: 2rem 1rem;
+    position: fixed;
+    right: 0;
+    /* z-index:-1; */
+}
+
+.user-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.user-profile {
+    border-radius: 50%;
+    /* z-index: 2; */
+}
+
+.user-name {
+
+}
+
+.search {
+    border: none;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    /* z-index: ; */
+}

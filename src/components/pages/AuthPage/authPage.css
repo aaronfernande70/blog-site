@@ -1,0 +1,12 @@
+.auth-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    border: 1px solid;
+  }
+  .auth-form{
+    display: flex;
+    flex-direction: column;
+  }
